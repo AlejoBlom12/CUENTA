@@ -74,7 +74,7 @@ export class Cuenta {
         
     }
 
-    ExtractoMesual(){
+    ExtractoMensual(){
         this.saldo = this.saldo - this.comisionMensual
         this.CalcularInteres()
         console.log("\n============== El extracto mensual ===================== "

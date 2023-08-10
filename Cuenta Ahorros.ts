@@ -42,13 +42,13 @@ export class Ahorros extends Cuenta {
         if (this.saldo < 1000){
             this.cuentaActiva = false
         }
-            super.ExtractoMesual()
+            super.ExtractoMensual()
             console.log("\nLa cuenta esta activa: " + this.cuentaActiva)
         }
     
     imprimir (){
         super.Imprimir()
-        console.log("\nCuenta activa: ", this.cuentaActiva)
+        console.log("Cuenta activa: ", this.cuentaActiva)
     }
 }
 

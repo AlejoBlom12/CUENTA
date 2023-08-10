@@ -12,7 +12,7 @@ let corrient1: Corriente = new Corriente(20000, 5)
 cuenta1.Retirar(10000)
 cuenta1.Consignar(20000)
 cuenta1.CalcularInteres()
-cuenta1.ExtractoMesual()
+cuenta1.ExtractoMensual()
 cuenta1.Imprimir()
 
 //Ahorros:
@@ -24,6 +24,6 @@ ahorro1.imprimir()
 
 //Corriente:
 corrient1.R3tirar(21000)
-corrient1.C0nsignar(6000)
+corrient1.C0nsignar(100)
 corrient1.Extr4ctoMesual()
 corrient1.Imprim1r()
