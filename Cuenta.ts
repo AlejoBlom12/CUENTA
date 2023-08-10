@@ -69,8 +69,8 @@ export class Cuenta {
 
     CalcularInteres (){
         let tasaMensual = ((this.tasaAnual / 100) / 12)
-        let interesMesual = (this.saldo * tasaMensual)
-        return interesMesual
+        this.comisionMensual = (this.saldo * tasaMensual)
+        return this.comisionMensual
         
     }
 
